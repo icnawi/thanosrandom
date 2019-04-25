@@ -21,15 +21,15 @@ function onLoad() {
 
   if (!randomNumber) {
     randomNumber = Math.random();
-    document.cookie = "thanosNumber=" + randomNumber + "; expires=Fri, 8 May 2019 00:00:00 UTC";
+    document.cookie = "thanosNumber=" + randomNumber + "; expires=Fri, 8 May 2020 00:00:00 UTC";
   } else {
     randomNumber = Number(randomNumber);
   }
 
   if (randomNumber < 0.5) {
-    displayElement.textContent = "Танос стёр твою жизнь ради блага Вселенной.";
+    displayElement.textContent = "You are in that half of humanity that has been wiped by Thanos";
   } else {
-    displayElement.textContent = "Танос сохранил твою жизнь.";
+    displayElement.textContent = "You are alive. Thanos' snap spared your life";
   }
 }
 
