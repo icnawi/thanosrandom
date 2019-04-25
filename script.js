@@ -27,9 +27,9 @@ function onLoad() {
   }
 
   if (randomNumber < 0.5) {
-    displayElement.textContent = "You are in that half of humanity that has been wiped by Thanos";
+    displayElement.textContent = "You are wiped out by Thanos";
   } else {
-    displayElement.textContent = "You are alive. Thanos' snap spared your life";
+    displayElement.textContent = "You are alive";
   }
 }
 
