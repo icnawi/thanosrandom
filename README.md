@@ -3,4 +3,4 @@
 
 Follow the link if you want to know either you are nothing but dust or alive
 
-
+[Infinity void](https://icnawi.github.io/thanosrandom/)
